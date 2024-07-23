@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="GS FILMS logo png.png" />
+    <title>
+        Gints Sprēdis - Par mani
+    </title>
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/65bfbe73e9.js" crossorigin="anonymous"></script>
+    <meta name="description" content="">
+    <meta name="keywords" content="Gints Spredis, operātors" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="main-container">
+    <nav id="main-nav" class="about-me-nav">
+        <ul class="navigation">
+            <li><a class="nav-el current-page">Par Mani</a></li>
+            <li><a href="my-videos.html" class="nav-el">Mani Video</a></li>
+            <li><a href="#contacts" class="nav-el">Kontakti</a></li>
+        </ul>
+        <i id="burger-menu-btn" class="fa fa-bars"></i>
+        <button id="burger-menu-close-btn" class="burger-menu-close-btn"><i class="fa-solid fa-xmark"></i></button>
+        <a class="GS-logo" href="main.html"><img src="GS FILMS logo no-bg.png" /></a>
+        <div id="lang-box" class="lang-box">
+            <h2 class="lang">EN</h2>
+            <img src="union-jack-1027898_1280.jpg">
+        </div>
+    </nav>
+    <div id="mobile-menu" class="mobile-menu">
+        <ul class="mobile-menu-container">
+            <li><a href="main.html" class="nav-el">Sākums</a></li>
+            <li><a class="nav-el current-page">Par Mani</a></li>
+            <li><a href="my-videos.html" class="nav-el">Mani Video</a></li>
+            <li><a href="#contacts" class="nav-el" id="contact-btn">Kontakti</a></li>
+        </ul>
+    </div>
+    <div class="about-me-section background-container">
+        <div class="background-carousel">
+            <div class="background-img1"></div>
+            <div class="background-img2"></div>
+            <div class="background-img3"></div>
+        </div>
+        <div class="container">
+            <div class="carousel">
+                <div class="images">
+                    <div class="img1">
+                        <div class="img-container">
+                            <div class="img-fade-in-box fade-in-effect-darken"></div>
+                            <img class="test" src="gints.jpg">
+                        </div>
+                    </div>
+                    <div class="img2">
+                        <div class="img-container">
+                            <div class="img-fade-in-box fade-in-effect-lighten"></div>
+                            <img class="test" src="gints1-sm.jpg">
+                        </div>
+                    </div>
+                    <div class="img3">
+                        <div class="img-container">
+                            <div class="img-fade-in-box fade-in-effect-darken"></div>
+                            <img class="test" src="Statue-of-Liberty-sm.jpg"> 
+                        </div>
+                    </div>
+                </div>
+                <div class="left-right-btn">
+                    <div onclick="moveSliderLeft()" id="left-btn" class="left-btn">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    <div onclick="moveSliderRight()" id="right-btn" class="right-btn">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="about-me-img-mobile">
+                <img src="gints.jpg">
+                <img src="gints1-sm.jpg">
+                <img src="Statue-of-Liberty-sm.jpg"> 
+            </div>
+        </div>
+    </div>
+    <div class="about-me-section text-section1">
+        <div class="part-section">
+            <h2>Par Mani</h2>
+            <div class="main-text">
+                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."</p>
+                <p>"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?".</p>
+            </div>
+        </div>
+        <div class="part-section">
+            <h2 id="contacts">Kontakti</h2>
+            <div class="contacts">
+                <div class="contacts-left">
+                    <div class="contacts-small-box email-box">
+                        <div class="contacts-small-box-email">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p id="contacts-email">gints@test.com</p>
+                        </div>
+                        <button id="copy-to-clipboard-btn" class="copy-to-clipboard-btn"><i class="fa fa-clone"></i>NOKOPĒT</button>
+                    </div>
+                    <div class="contacts-small-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+371 22222222</p>
+                    </div>
+                </div>
+                <div class="contacts-center">
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                </div>
+                <div class="contacts-right">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>© GS FILMS, 2024</p>
+        </footer>
+    </div>
+    <!-- <main class="">
+        
+    </main> -->
+    <a href="#top" class="back-to-top" title="Back to Top">
+        <img src="arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+    </a>
+    <button id="contact-me-btn" class="contact-me-btn">Sazinies ar mani</button>
+    <form id="contact-form" class="contact-form hidden">
+        <button id="contact-form-close-btn"><i class="fa-solid fa-xmark"></i></button>
+        <div class="contact-form-container">
+            <h2>Sazinies ar Mani </h2>
+            <div class="contact-form-row1">
+                <div class="contact-form-row1-col">
+                    <label for="name">Vārds</label>
+                    <input id="name" type="text" placeholder="Vārds">
+                </div>
+                <div class="contact-form-row1-col">
+                    <label for="email">E-pasts</label>
+                    <input id="email" type="email" placeholder="epasts@epasts.com">
+                </div>
+            </div>
+            <div class="contact-form-row2">
+                <label for="message">Ziņas teksts</label>
+                <textarea id="message" placeholder="Ziņas teksts"></textarea>
+            </div>
+            <div class="contact-me-cta-btn" id="contact-me-cta-btn-container">
+                <input type="submit" id="contact-me-cta-btn" value="SŪTĪT ZIŅU">
+                <i class="fa-solid fa-arrow-right" id="contact-me-cta-btn-arr"></i>
+            </div>
+        </div>
+    </form>
+</body>
+<script src="index.js"></script>
+</html>
