@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="shortcut icon" type="image/png" href="./images/favicon.png" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Put your site title here -->
+    <link rel="shortcut icon" type="image/png" href="GS FILMS logo png.png" />
+    <title>
+        Gints Sprēdis
+    </title>
+    <script src="https://kit.fontawesome.com/65bfbe73e9.js" crossorigin="anonymous"></script>
+    <meta name="description" content="">
+    <meta name="keywords" content="Gints Spredis, operātors" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="main-container">
+    <!-- The video -->
+    <!-- <div class="top"> -->
+    <section class="section video-section">
+        <video autoplay muted loop id="myVideo">
+            <source src="test_majaslapai.mp4" type="video/mp4">
+        </video>   
+        <!-- Optional: some overlay text to describe the video -->
+        <div class="content">
+            <!-- <header> -->
+                <nav id="main-nav" class="about-me-nav">
+                    <ul class="navigation">
+                        <li><a href="about-me.html" class="nav-el">PAR MANI</a></li>
+                        <li><a href="my-videos.html" class="nav-el">MANI VIDEO</a></li>
+                        <li><a href="#contacts" class="nav-el">KONTAKTI</a></li>
+                    </ul>
+                    <i id="burger-menu-btn" class="fa fa-bars"></i>
+                    <button id="burger-menu-close-btn" class="burger-menu-close-btn"><i class="fa-solid fa-xmark"></i></button>
+                    <a class="GS-logo"><img src="GS FILMS logo no-bg.png" /></a>
+                    <div id="lang-box" class="lang-box">
+                        <h2 class="lang">EN</h2>
+                        <img src="union-jack-1027898_1280.jpg">
+                    </div>
+                </nav>
+                <div id="mobile-menu" class="mobile-menu">
+                    <ul class="mobile-menu-container">
+                        <li><a class="nav-el current-page">Sākums</a></li>
+                        <li><a href="about-me.html" class="nav-el">Par Mani</a></li>
+                        <li><a href="my-videos.html" class="nav-el">Mani Video</a></li>
+                        <li><a href="#contacts" class="nav-el" id="contact-btn">Kontakti</a></li>
+                    </ul>
+                </div>
+            <!-- </header> -->
+            <main class="text">
+                <h1><span class="Gints">GS FILMS</span> video pakalpojumi</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <!-- Use a button to pause/play the video with JavaScript
+                <a id="myBtn" onclick="myFunction()"><i class="fa-regular fa-circle-play"></i></a>             -->
+            </main>
+        </div>
+    </section>
+    <section id="section2" class="section text-section">
+        <div class="part-section">
+            <h2>Uzņēmumi kas man uzticās</h2>
+            <div class="infinite-carousel">
+                <div>
+                    <img src="arrow-up.svg" />
+                    <img src="codepen.svg" />
+                    <img src="github-mark-white.svg" />
+                    <img src="github.svg" />
+                    <img src="heart.svg" />
+                    <img src="arrow-up.svg" />
+                    <img src="linkedin.svg" />
+                    <img src="twitter.svg" />
+                    <img src="codepen.svg" />
+                    <img src="heart.svg" />
+                    <img src="heart.svg" />
+                    <img src="heart.svg" />
+                </div>
+            </div>
+        </div>
+        <div class="part-section">
+            <h2 id="contacts">Kontakti</h2>
+            <div class="contacts">
+                <div class="contacts-left">
+                    <div class="contacts-small-box email-box">
+                        <div class="contacts-small-box-email">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p id="contacts-email">gints@test.com</p>
+                        </div>
+                        <button id="copy-to-clipboard-btn" class="copy-to-clipboard-btn"><i class="fa fa-clone"></i>NOKOPĒT</button>
+                    </div>
+                    <div class="contacts-small-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+371 22222222</p>
+                    </div>
+                </div>
+                <div class="contacts-center">
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                </div>
+                <div class="contacts-right">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>© GS FILMS, 2024</p>
+        </footer>
+    </section>
+    <a href="#top" class="back-to-top" title="Back to Top">
+        <img src="arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+    </a>
+    <button id="contact-me-btn" class="contact-me-btn">Sazinies ar mani</button>
+    <form id="contact-form" class="contact-form hidden">
+        <button id="contact-form-close-btn"><i class="fa-solid fa-xmark"></i></button>
+        <div class="contact-form-container">
+            <h2>Sazinies ar Mani </h2>
+            <div class="contact-form-row1">
+                <div class="contact-form-row1-col">
+                    <label for="name">Vārds</label>
+                    <input id="name" type="text" placeholder="Vārds">
+                </div>
+                <div class="contact-form-row1-col">
+                    <label for="email">E-pasts</label>
+                    <input id="email" type="email" placeholder="epasts@epasts.com">
+                </div>
+            </div>
+            <div class="contact-form-row2">
+                <label for="message">Ziņas teksts</label>
+                <textarea id="message" placeholder="Ziņas teksts"></textarea>
+            </div>
+            <div class="contact-me-cta-btn" id="contact-me-cta-btn-container">
+                <input type="submit" id="contact-me-cta-btn" value="SŪTĪT ZIŅU">
+                <i class="fa-solid fa-arrow-right" id="contact-me-cta-btn-arr"></i>
+            </div>
+        </div>
+    </form>
+</body>
+<script src="./index.js"></script>
+</html>
