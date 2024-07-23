@@ -253,10 +253,6 @@ nav {
     justify-self: center;
 }
 
-/* .fa-bars:hover {
-    color: #c48715;
-} */
-
 .fa-bars {
     display: none;
     color: white;
@@ -389,7 +385,7 @@ ul {
 @media(max-width: 700px) {
 
     .mobile-menu-container {
-        margin-left: 1em;
+        margin-left: 0;
     }
 
     .lang-box > h2 {
@@ -451,17 +447,6 @@ ul {
     /* border-bottom: #c48715 8px solid; */
     color: #c48715;
   }
-
-/* .Gints::after {
-    content: " ";
-    display: block;
-    position: absolute;
-    height: 5px;
-    background: black;
-    width: 40px;
-    left: 100%;
-    top: calc(50% - 2px);
-} */
 
 .text > h1 {
     font-size: 3rem;
