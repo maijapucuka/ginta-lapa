@@ -839,6 +839,7 @@ header, ul {
         display: flex;
         flex-direction: column;
         gap: 2em;
+        padding-top: 2em;
     }
 
     .about-me-img-mobile > img {
