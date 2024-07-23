@@ -1,3 +1,13 @@
+// REDIRECT TO MAIN PAGE
+
+// This function will redirect the user after 3 seconds
+function redirectToMain() {
+  setTimeout(() => {
+      window.location.href = "main.html"; // Replace with the URL you want to redirect to
+  }, 3000); // 3000 milliseconds = 3 seconds
+}
+
+// MAIN PAGE INFINITE PIC CAROUSEL
 
 const carousels = document.querySelectorAll(".infinite-carousel");
 
