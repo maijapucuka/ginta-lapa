@@ -455,7 +455,7 @@ ul {
 @media(max-width: 700px) {
 
     .mobile-menu-container {
-        margin-left: 0;
+        margin-left: 1em;
     }
 
     .lang-box > h2 {
