@@ -154,7 +154,7 @@ a {
         order: 3;
         width: 90%;
         align-self: center;
-        padding-bottom: 1em;
+        padding: 1em 0 1em 0;
     }
 
     .contacts-small-box {
