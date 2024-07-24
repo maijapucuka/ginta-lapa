@@ -382,7 +382,7 @@ ul {
     }
 }
 
-/* MOBILE MENU */
+/*  MENU */
 
 .mobile-menu {
     display: none;
@@ -392,8 +392,8 @@ ul {
     width: 60%;
     height: 100vh;
 /*     background-color: black; */
-    background-color: blue;
-    z-index: 300000000000000000000;
+    background-color: orange;
+    z-index: 300000000000;
     transition: 0.3;
 }
 
