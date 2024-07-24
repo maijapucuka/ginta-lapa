@@ -346,33 +346,28 @@ if (burgerMenuBtn) {
 
     mainNav.style.position = "fixed";
 
-    // Prevent default touch actions when the mobile nav is open
-    mobileNav.addEventListener('touchmove', (e) => {
-      e.preventDefault();
-    }, { passive: false });
-
     mobileMenu.style.display = "flex";
     const langBtn = document.getElementById("lang-box");
 
-      let isBackToTopRendered = false;
+      // let isBackToTopRendered = false;
 
-      let alterStyles = (isBackToTopRendered) => {
-        langBtn.style.visibility = isBackToTopRendered ? "visible" : "hidden";
-        langBtn.style.opacity = isBackToTopRendered ? 1 : 0;
-        langBtn.style.transform = isBackToTopRendered
-          ? "scale(1)"
-          : "scale(0)";
-      };
+      // let alterStyles = (isBackToTopRendered) => {
+      //   langBtn.style.visibility = isBackToTopRendered ? "visible" : "hidden";
+      //   langBtn.style.opacity = isBackToTopRendered ? 1 : 0;
+      //   langBtn.style.transform = isBackToTopRendered
+      //     ? "scale(1)"
+      //     : "scale(0)";
+      // };
 
-      window.addEventListener("scroll", () => {
-        if (window.scrollY < 300) {
-          isBackToTopRendered = true;
-          alterStyles(isBackToTopRendered);
-        } else {
-          isBackToTopRendered = false;
-          alterStyles(isBackToTopRendered);
-        }
-      });
+      // window.addEventListener("scroll", () => {
+      //   if (window.scrollY < 300) {
+      //     isBackToTopRendered = true;
+      //     alterStyles(isBackToTopRendered);
+      //   } else {
+      //     isBackToTopRendered = false;
+      //     alterStyles(isBackToTopRendered);
+      //   }
+      // });
   });
 }
 
@@ -386,25 +381,25 @@ if (myVideosNav) {
     mobileMenu.style.display = "flex";
     const langBtn = document.getElementById("lang-box");
   
-      let isBackToTopRendered = false;
+      // let isBackToTopRendered = false;
   
-      let alterStyles = (isBackToTopRendered) => {
-        langBtn.style.visibility = isBackToTopRendered ? "visible" : "hidden";
-        langBtn.style.opacity = isBackToTopRendered ? 1 : 0;
-        langBtn.style.transform = isBackToTopRendered
-          ? "scale(1)"
-          : "scale(0)";
-      };
+      // let alterStyles = (isBackToTopRendered) => {
+      //   langBtn.style.visibility = isBackToTopRendered ? "visible" : "hidden";
+      //   langBtn.style.opacity = isBackToTopRendered ? 1 : 0;
+      //   langBtn.style.transform = isBackToTopRendered
+      //     ? "scale(1)"
+      //     : "scale(0)";
+      // };
   
-      window.addEventListener("scroll", () => {
-        if (window.scrollY < 300) {
-          isBackToTopRendered = true;
-          alterStyles(isBackToTopRendered);
-        } else {
-          isBackToTopRendered = false;
-          alterStyles(isBackToTopRendered);
-        }
-      });
+      // window.addEventListener("scroll", () => {
+      //   if (window.scrollY < 300) {
+      //     isBackToTopRendered = true;
+      //     alterStyles(isBackToTopRendered);
+      //   } else {
+      //     isBackToTopRendered = false;
+      //     alterStyles(isBackToTopRendered);
+      //   }
+      // });
   })
 }
 
