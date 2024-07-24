@@ -457,7 +457,7 @@ if (isNonTouchDevice()) {
         burgerMenuCloseBtn.style.display = "none";
         mobileMenu.style.display = "none";
       }
-    }, 250); // Adjust the delay as needed
+    }, 10); // Adjust the delay as needed
   });
 }
 
