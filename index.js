@@ -427,30 +427,6 @@ contactsBtn.addEventListener("click", () => {
   mainNav.style.position = "absolute";
 });
 
-
-let resizeTimeout;
-
-window.addEventListener('resize', function() {
-  clearTimeout(resizeTimeout);
-  resizeTimeout = setTimeout(function() {
-    if (window.innerWidth >= 1600) {
-      if (mobileMenu.style.display !== "none") {
-        mobileMenu.style.display = "none";
-      }
-      burgerMenuBtn.style.display = "none";
-      burgerMenuCloseBtn.style.display = "none";
-      mainNav.style.position = "absolute";
-    } else if (window.innerWidth < 1600) {
-      if (mobileMenu.style.display !== "none") {
-        mobileMenu.style.display = "none";
-      }
-      burgerMenuBtn.style.display = "flex";
-      burgerMenuCloseBtn.style.display = "none";
-    }
-  }, 250); // Adjust the delay as needed
-});
-
-
 // window.addEventListener('resize', function() {
 //   if (window.innerWidth >= 1600) {
 
