@@ -393,7 +393,7 @@ ul {
     height: 100vh;
     background-color: black;
 /*     background-color: green; */
-    z-index: 300000000000;
+    z-index: 300000;
     transition: 0.3;
 }
 
