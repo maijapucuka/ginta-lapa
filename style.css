@@ -135,12 +135,14 @@ a {
 @media(max-width: 1200px) {
     .contacts-left {
         /* background-color: #3cafdd; */
+        order: 2;
         width: 90%;
         align-self: center;
         gap: .6em;
         /* font-size: 1rem; */
     }
     .contacts-right {
+        order: 1;
         width: 90%;
         align-self: center;
         text-align: center;
@@ -149,6 +151,7 @@ a {
 
     .contacts-center {
         /* background-color: rebeccapurple; */
+        order: 3;
         width: 90%;
         align-self: center;
     }
