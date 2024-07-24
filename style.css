@@ -392,8 +392,8 @@ ul {
     width: 60%;
     height: 100vh;
 /*     background-color: black; */
-    background-color: #c48715;
-    z-index: 300000;
+    background-color: blue;
+    z-index: 300000000000000000000;
     transition: 0.3;
 }
 
