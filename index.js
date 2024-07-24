@@ -165,19 +165,6 @@ moveSliderRight = () => {
 
 // MY VIDEOS PAGE
 
-// const clip = document.querySelectorAll('.my-videos-video');
-// for (let i = 0; i < clip.length; i++) {
-//   if (clip[i].style.position != "absolute") {
-//     clip[i].addEventListener('mouseenter', function(e) {
-//       clip[i].play()
-//       console.log("lala")
-//     })
-//     clip[i].addEventListener('mouseout', function(e) {
-//       clip[i].pause()
-//     })
-//   }
-// }
-
 // BACK TO TOP
 
 const backToTopButton = document.querySelector(".back-to-top");
@@ -351,11 +338,6 @@ const mobileMenu = document.getElementById("mobile-menu");
 const mainNav = document.getElementById("main-nav");
 
 const myVideosNav = document.getElementById("my-videos-nav");
-// const myVideosBurgerMenuBtn = document.getElementById("my-videos-burger-menu-btn");
-// const myVideosBurgerMenuCloseBtn = document.getElementById("my-videos-burger-menu-close-btn");
-// const myVideosMobileMenu = document.getElementById("my-videos-mobile-menu");
-
-let clicked = false;
 
 if (burgerMenuBtn) {
   burgerMenuBtn.addEventListener("click", () => {
@@ -363,7 +345,11 @@ if (burgerMenuBtn) {
     burgerMenuCloseBtn.style.display= "flex";
 
     mainNav.style.position = "fixed";
-    // myVideosNav.style.position = "fixed";
+
+    // Prevent default touch actions when the mobile nav is open
+    mobileNav.addEventListener('touchmove', (e) => {
+      e.preventDefault();
+    }, { passive: false });
 
     mobileMenu.style.display = "flex";
     const langBtn = document.getElementById("lang-box");
