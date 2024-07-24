@@ -349,25 +349,25 @@ if (burgerMenuBtn) {
     mobileMenu.style.display = "flex";
     const langBtn = document.getElementById("lang-box");
 
-      // let isBackToTopRendered = false;
+      let isBackToTopRendered = false;
 
-      // let alterStyles = (isBackToTopRendered) => {
-      //   langBtn.style.visibility = isBackToTopRendered ? "visible" : "hidden";
-      //   langBtn.style.opacity = isBackToTopRendered ? 1 : 0;
-      //   langBtn.style.transform = isBackToTopRendered
-      //     ? "scale(1)"
-      //     : "scale(0)";
-      // };
+      let alterStyles = (isBackToTopRendered) => {
+        langBtn.style.visibility = isBackToTopRendered ? "visible" : "hidden";
+        langBtn.style.opacity = isBackToTopRendered ? 1 : 0;
+        langBtn.style.transform = isBackToTopRendered
+          ? "scale(1)"
+          : "scale(0)";
+      };
 
-      // window.addEventListener("scroll", () => {
-      //   if (window.scrollY < 300) {
-      //     isBackToTopRendered = true;
-      //     alterStyles(isBackToTopRendered);
-      //   } else {
-      //     isBackToTopRendered = false;
-      //     alterStyles(isBackToTopRendered);
-      //   }
-      // });
+      window.addEventListener("scroll", () => {
+        if (window.scrollY < 300) {
+          isBackToTopRendered = true;
+          alterStyles(isBackToTopRendered);
+        } else {
+          isBackToTopRendered = false;
+          alterStyles(isBackToTopRendered);
+        }
+      });
   });
 }
 
@@ -381,25 +381,25 @@ if (myVideosNav) {
     mobileMenu.style.display = "flex";
     const langBtn = document.getElementById("lang-box");
   
-      // let isBackToTopRendered = false;
+      let isBackToTopRendered = false;
   
-      // let alterStyles = (isBackToTopRendered) => {
-      //   langBtn.style.visibility = isBackToTopRendered ? "visible" : "hidden";
-      //   langBtn.style.opacity = isBackToTopRendered ? 1 : 0;
-      //   langBtn.style.transform = isBackToTopRendered
-      //     ? "scale(1)"
-      //     : "scale(0)";
-      // };
+      let alterStyles = (isBackToTopRendered) => {
+        langBtn.style.visibility = isBackToTopRendered ? "visible" : "hidden";
+        langBtn.style.opacity = isBackToTopRendered ? 1 : 0;
+        langBtn.style.transform = isBackToTopRendered
+          ? "scale(1)"
+          : "scale(0)";
+      };
   
-      // window.addEventListener("scroll", () => {
-      //   if (window.scrollY < 300) {
-      //     isBackToTopRendered = true;
-      //     alterStyles(isBackToTopRendered);
-      //   } else {
-      //     isBackToTopRendered = false;
-      //     alterStyles(isBackToTopRendered);
-      //   }
-      // });
+      window.addEventListener("scroll", () => {
+        if (window.scrollY < 300) {
+          isBackToTopRendered = true;
+          alterStyles(isBackToTopRendered);
+        } else {
+          isBackToTopRendered = false;
+          alterStyles(isBackToTopRendered);
+        }
+      });
   })
 }
 
@@ -428,29 +428,29 @@ contactsBtn.addEventListener("click", () => {
 });
 
 
-window.addEventListener('resize', function() {
-  if (window.innerWidth >= 1600) {
+// window.addEventListener('resize', function() {
+//   if (window.innerWidth >= 1600) {
 
-      burgerMenuBtn.style.display = "none";
+//       burgerMenuBtn.style.display = "none";
     
-      burgerMenuCloseBtn.style.display= "none";
+//       burgerMenuCloseBtn.style.display= "none";
 
-      mobileMenu.style.display = "none";
+//       mobileMenu.style.display = "none";
 
-      mainNav.style.position = "absolute";
+//       mainNav.style.position = "absolute";
     
-  }
-});
+//   }
+// });
 
-window.addEventListener('resize', function() {
-  if (window.innerWidth < 1600) {
+// window.addEventListener('resize', function() {
+//   if (window.innerWidth < 1600) {
 
-    burgerMenuBtn.style.display = "flex";
-    burgerMenuCloseBtn.style.display= "none";
+//     burgerMenuBtn.style.display = "flex";
+//     burgerMenuCloseBtn.style.display= "none";
 
-    mobileMenu.style.display = "none";
-  }
-});
+//     mobileMenu.style.display = "none";
+//   }
+// });
 
 // COPY TO CLIPBOARD BTN
 
