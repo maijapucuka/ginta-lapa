@@ -427,6 +427,41 @@ contactsBtn.addEventListener("click", () => {
   mainNav.style.position = "absolute";
 });
 
+//SCROLLING ISSUE
+
+function isNonTouchDevice() {
+  const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+  
+  // Check for touch capabilities
+  const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints;
+
+  // Check for mobile user agent strings
+  const isMobile = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(userAgent.toLowerCase());
+
+  return !isTouchDevice && !isMobile;
+}
+
+if (isNonTouchDevice()) {
+  let resizeTimeout;
+
+  window.addEventListener('resize', function() {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(function() {
+      if (window.innerWidth >= 1600) {
+        burgerMenuBtn.style.display = "none";
+        burgerMenuCloseBtn.style.display = "none";
+        mobileMenu.style.display = "none";
+        mainNav.style.position = "absolute";
+      } else if (window.innerWidth < 1600) {
+        burgerMenuBtn.style.display = "flex";
+        burgerMenuCloseBtn.style.display = "none";
+        mobileMenu.style.display = "none";
+      }
+    }, 250); // Adjust the delay as needed
+  });
+}
+
+
 // window.addEventListener('resize', function() {
 //   if (window.innerWidth >= 1600) {
 
