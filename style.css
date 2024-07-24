@@ -391,8 +391,7 @@ ul {
     left: 0;
     width: 60%;
     height: 100vh;
-/*     background-color: black; */
-    background-color: green;
+    background-color: black;
     z-index: 300000;
     transition: 0.3;
 }
