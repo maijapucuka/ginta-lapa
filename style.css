@@ -1233,13 +1233,17 @@ input:active, input:focus, textarea:active, textarea:focus {
     .contact-form {
         width: 90vw;
         height: 80vh;
-        background-color: blue;
+        background-color: red;
     }
 
     .contact-me-btn {
         left: 3em;
         right: inherit;
         z-index: 100000000;
+    }
+
+     .contact-form-row2 > textarea {
+        min-height: 200px;
     }
 }
 
