@@ -1232,7 +1232,7 @@ input:active, input:focus, textarea:active, textarea:focus {
 
     .contact-form {
         width: 90vw;
-        height: 60vh;
+        height: 80vh;
         background-color: grey;
     }
 
