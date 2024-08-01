@@ -399,6 +399,7 @@ ul {
     background-color: black;
     z-index: 300000;
     transition: 0.3;
+    border: #c48715 .3em solid;
 }
 
 .mobile-menu-container {
