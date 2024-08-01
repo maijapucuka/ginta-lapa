@@ -1219,7 +1219,6 @@ input:active, input:focus, textarea:active, textarea:focus {
 
     .contact-form {
         width: 80vw;
-        height: 90hv;
     }
 
     .contact-me-btn {
@@ -1232,7 +1231,8 @@ input:active, input:focus, textarea:active, textarea:focus {
 @media(max-width: 800px) {
 
     .contact-form {
-        width: 100vw;
+        width: 90vw;
+        height: 90hv;
     }
 
     .contact-me-btn {
