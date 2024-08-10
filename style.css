@@ -1074,14 +1074,6 @@ footer > p {
     cursor: pointer;
 }
 
-@media(min-width: 1800px) {
-
-    .contact-form {
-        height: 50vh;
-        background-color: blue;
-    }
-}
-
 .contact-form {
     position: fixed;
     left: 0;
@@ -1222,6 +1214,14 @@ input:active, input:focus, textarea:active, textarea:focus {
     display: none;
     font-size: 1.5rem;
     /* padding-bottom: .1em; */
+}
+
+@media(min-width: 1800px) {
+
+    .contact-form {
+        height: 60%;
+        background-color: blue;
+    }
 }
 
 @media(max-width: 1200px) {
