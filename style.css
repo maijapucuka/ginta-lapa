@@ -1084,7 +1084,7 @@ footer > p {
     width: 60vw;
     z-index: 1000000000050;
     background-color: #fff;
-    min-height: 70%;
+    min-height: 60%;
     padding: 2em;
     transition: .3s;
 }
