@@ -1074,6 +1074,14 @@ footer > p {
     cursor: pointer;
 }
 
+@media(min-width: 1800px) {
+
+    .contact-form {
+        height: 50vh;
+        background-color: blue;
+    }
+}
+
 .contact-form {
     position: fixed;
     left: 0;
@@ -1214,21 +1222,6 @@ input:active, input:focus, textarea:active, textarea:focus {
     display: none;
     font-size: 1.5rem;
     /* padding-bottom: .1em; */
-}
-
-@media(min-width: 1800px) {
-
-    .contact-form {
-        // width: 40vw;
-        height: height: 50vh;
-        background-color: red;
-    }
-
-/*     .contact-me-btn {
-        left: 7em;
-        right: inherit;
-        z-index: 100000000;
-    } */
 }
 
 @media(max-width: 1200px) {
