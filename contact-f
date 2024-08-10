@@ -1219,8 +1219,9 @@ input:active, input:focus, textarea:active, textarea:focus {
 @media(min-width: 1800px) {
 
     .contact-form {
-        width: 40vw;
-        background-color: #3cafdd;
+        // width: 40vw;
+        height: height: 50vh;
+        background-color: red;
     }
 
 /*     .contact-me-btn {
