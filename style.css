@@ -1216,6 +1216,19 @@ input:active, input:focus, textarea:active, textarea:focus {
     /* padding-bottom: .1em; */
 }
 
+@media(min-width: 1800px) {
+
+    .contact-form {
+        width: 40vw;
+    }
+
+/*     .contact-me-btn {
+        left: 7em;
+        right: inherit;
+        z-index: 100000000;
+    } */
+}
+
 @media(max-width: 1200px) {
 
     .contact-form {
