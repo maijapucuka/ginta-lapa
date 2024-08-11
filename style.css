@@ -329,7 +329,7 @@ nav > .GS-logo {
 .GS-logo > img {
     /* height: 150px; */
     /* height: 5em; */
-    width: 5.5vw;
+    width: 6.5vw;
     min-width: 70px;
     transition: .5s;
     /* background-color: #3cafdd; */
@@ -695,14 +695,14 @@ header, ul {
 
 .background-img2 {
 /*     background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('gints1-bg.jpg'); */
-    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('pexels-luisdalvan-1770809.jpg');
+    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('pexels-michael-block-1691617-3225517.jpg');
     opacity: 1;
     z-index: 200;
 }
 
 .background-img3 {
 /*     background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('Statue-of-Liberty-bg.jpg'); */
-    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('pexels-michael-block-1691617-3225517.jpg');
+    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('pexels-luisdalvan-1770809.jpg');
     opacity: 0;
     z-index: 100;
 }
