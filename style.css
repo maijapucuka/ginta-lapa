@@ -329,7 +329,7 @@ nav > .GS-logo {
 .GS-logo > img {
     /* height: 150px; */
     /* height: 5em; */
-    width: 4.5vw;
+    width: 5.5vw;
     min-width: 70px;
     transition: .5s;
     /* background-color: #3cafdd; */
@@ -687,19 +687,22 @@ header, ul {
 }
 
 .background-img1 {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('gints.jpg');
+/*     background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('gints.jpg'); */
+    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('pexels-arts-1547813.jpg');
     opacity: 0;
     z-index: 100;
 }
 
 .background-img2 {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('gints1-bg.jpg');
+/*     background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('gints1-bg.jpg'); */
+    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('pexels-luisdalvan-1770809.jpg');
     opacity: 1;
     z-index: 200;
 }
 
 .background-img3 {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('Statue-of-Liberty-bg.jpg');
+/*     background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('Statue-of-Liberty-bg.jpg'); */
+    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('pexels-michael-block-1691617-3225517.jpg');
     opacity: 0;
     z-index: 100;
 }
