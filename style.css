@@ -1216,13 +1216,13 @@ input:active, input:focus, textarea:active, textarea:focus {
     /* padding-bottom: .1em; */
 }
 
-@media(min-width: 1800px) {
+/* @media(min-width: 1800px) {
 
     .contact-form {
         height: 60%;
         background-color: blue;
     }
-}
+} */
 
 @media(max-width: 1200px) {
 
