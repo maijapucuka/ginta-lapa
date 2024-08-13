@@ -1088,7 +1088,7 @@ footer > p {
     z-index: 1000000000050;
 /*     background-color: #fff; */
     background-color: pink;
-    height: 60vh;
+    height: 80vh;
     padding: 2em;
     transition: .3s;
 }
