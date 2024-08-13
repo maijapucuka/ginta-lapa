@@ -1084,11 +1084,11 @@ footer > p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 60vw;
+    width: 50vw;
     z-index: 1000000000050;
 /*     background-color: #fff; */
-    background-color: pink;
-    height: 80vh;
+    background-color: orange;
+    height: 90vh;
     padding: 3em;
     transition: .3s;
 }
@@ -1158,7 +1158,7 @@ label {
     text-transform: uppercase;
     letter-spacing: .1em;
     padding-bottom: .5em;
-    font-size: 1.2rem;
+/*     font-size: 1.2rem; */
     font-weight: 600;
 }
 
@@ -1188,7 +1188,7 @@ input:active, input:focus, textarea:active, textarea:focus {
     margin-top: 2em;
     width: 40%;
     padding: .7em 0;
-    color: "black";
+    background-color: #3cafdd;
     border: #3cafdd 2px solid;
     text-transform: uppercase;
     letter-spacing: .1em;
