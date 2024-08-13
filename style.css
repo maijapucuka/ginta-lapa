@@ -1018,7 +1018,7 @@ header, ul {
 
 .close-btn-visible {
     /* position: absolute; */
-    display: block;
+    display: inline;
     /* top: .5em;
     right: 1em; */
     z-index: 3000;
