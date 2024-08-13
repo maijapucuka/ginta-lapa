@@ -1068,6 +1068,8 @@ footer > p {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1000000000050;
+    background-color: #fff;
+    padding: 2em;  
 }
 
 @media(min-width: 2000px) {
