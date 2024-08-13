@@ -467,7 +467,8 @@ ul {
 
     .mobile-menu-container {
 /*         margin-left: 1em; */
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .lang-box > h2 {
