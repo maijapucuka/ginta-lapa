@@ -1067,6 +1067,7 @@ footer > p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 1000000000050;
 }
 
 @media(min-width: 2000px) {
@@ -1277,6 +1278,7 @@ input:active, input:focus, textarea:active, textarea:focus {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        z-index: 1000000000050;
     }
 
     .contact-me-btn {
