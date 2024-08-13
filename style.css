@@ -1181,7 +1181,7 @@ input:active, input:focus, textarea:active, textarea:focus {
 .contact-form-row2 > textarea {
     width: 100%;
 /*     min-height: 250px; */
-    max-height: 40%;
+/*     max-height: 40%; */
 }
 
 .contact-me-cta-btn {
