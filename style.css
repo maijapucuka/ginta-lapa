@@ -1060,15 +1060,18 @@ footer > p {
 
 /* ----- Contact form ----- */
 
+.contact-form {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 @media(min-width: 2000px) {
 
     .contact-form {
-        position: fixed;
-        left: 0;
-        right: 0;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         width: 50vw;
         z-index: 1000000000050;
     /*     background-color: #fff; */
