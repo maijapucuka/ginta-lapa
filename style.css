@@ -1126,7 +1126,7 @@ footer > p {
 .contact-form-container > h2 {
     text-transform: uppercase;
     letter-spacing: .1em;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 2em;
 }
 
@@ -1179,7 +1179,7 @@ input:active, input:focus, textarea:active, textarea:focus {
 
 .contact-form-row2 > textarea {
     width: 100%;
-    min-height: 350px;
+    min-height: 250px;
 }
 
 .contact-me-cta-btn {
