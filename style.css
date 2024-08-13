@@ -463,6 +463,7 @@ ul {
 
     .mobile-menu {
         width: 100%;
+        border: none;
     }
 
     .mobile-menu-container {
