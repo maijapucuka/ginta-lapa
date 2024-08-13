@@ -1086,8 +1086,9 @@ footer > p {
     transform: translate(-50%, -50%);
     width: 60vw;
     z-index: 1000000000050;
-    background-color: #fff;
-    min-height: 60hw;
+/*     background-color: #fff; */
+    background-color: orange;
+    min-height: 60vh;
     padding: 2em;
     transition: .3s;
 }
