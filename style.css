@@ -1072,6 +1072,12 @@ footer > p {
 @media(min-width: 2000px) {
 
     .contact-form {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         width: 50vw;
         z-index: 1000000000050;
     /*     background-color: #fff; */
@@ -1248,10 +1254,10 @@ input:active, input:focus, textarea:active, textarea:focus {
 
 @media(max-width: 1200px) {
 
-    .contact-form {
+/*     .contact-form {
         width: 80vw;
     }
-
+ */
     .contact-me-btn {
         left: 7em;
         right: inherit;
@@ -1265,6 +1271,12 @@ input:active, input:focus, textarea:active, textarea:focus {
         width: 90vw;
         height: 80vh;
         background-color: red;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .contact-me-btn {
