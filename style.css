@@ -1138,7 +1138,7 @@ footer > p {
     border: black 2px solid;
     padding-top: .1em;
     padding-bottom: 0;
-    display: block;
+/*     display: block; */
     font-size: 1.4rem;
     cursor: pointer;
     text-align: center;
