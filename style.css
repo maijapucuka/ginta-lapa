@@ -1012,6 +1012,10 @@ header, ul {
     position: relative;
 } */
 
+.close-btn {
+    font-size: 2rem;
+}
+
 .close-btn-hidden {
     display: none;
 }
@@ -1020,7 +1024,6 @@ header, ul {
     /* position: absolute; */
     display: block;
     width: 1em;
-    font-size: 1.5rem;
     /* top: .5em;
     right: 1em; */
     z-index: 3000;
