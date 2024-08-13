@@ -1108,7 +1108,7 @@ footer > p {
     cursor: pointer;
 }
 
-@media(min-width: 1600px) {
+@media(min-width: 800px) {
     .contact-form {
         position: fixed;
         left: 0;
