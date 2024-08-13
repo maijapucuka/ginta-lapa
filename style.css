@@ -1012,10 +1012,6 @@ header, ul {
     position: relative;
 } */
 
-.fa-xmark {
-    font-size: 2rem;
-}
-
 .close-btn-hidden {
     display: none;
 }
