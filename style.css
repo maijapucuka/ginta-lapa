@@ -1213,6 +1213,7 @@ input:active, input:focus, textarea:active, textarea:focus {
 
 .contact-form-row2 > textarea {
     width: 100%;
+    resize: none;
 /*     min-height: 250px; */
 /*     max-height: 40%; */
 }
