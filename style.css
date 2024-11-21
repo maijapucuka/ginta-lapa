@@ -1110,7 +1110,7 @@ footer > p {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 60vw;
+        width: 50vw;
         z-index: 1000000000050;
     /*     background-color: #fff; */
         background-color: pink;
