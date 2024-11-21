@@ -1078,7 +1078,7 @@ footer > p {
     padding: 2em;  
 }
 
-@media(min-width: 2000px) {
+@media(min-width: 1200px) {
 
     .contact-form {
         position: fixed;
