@@ -1075,11 +1075,43 @@ footer > p {
     transform: translate(-50%, -50%);
     z-index: 1000000000050;
     background-color: #fff;
-    padding: 2em;
-    width: 60vw;
+/*     padding: 2em;
+    width: 60vw; */
 }
 
-@media(min-width: 1200px) {
+@media(min-width: 800px) {
+    .contact-form {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80vw;
+        z-index: 1000000000050;
+    /*     background-color: #fff; */
+        background-color: orange;
+        height: 80vh;
+        padding: 6em;
+        transition: .3s;
+    }
+
+/*     .contact-form {
+        width: 90vw;
+        height: 80vh;
+        background-color: red;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1000000000050;
+    } */
+
+}
+
+@media(min-width: 1300px) {
 
     .contact-form {
         position: fixed;
@@ -1113,24 +1145,6 @@ footer > p {
     text-transform: uppercase;
     letter-spacing: .1em;
     cursor: pointer;
-}
-
-@media(min-width: 800px) {
-    .contact-form {
-        position: fixed;
-        left: 0;
-        right: 0;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 80vw;
-        z-index: 1000000000050;
-    /*     background-color: #fff; */
-        background-color: orange;
-        height: 80vh;
-        padding: 6em;
-        transition: .3s;
-    }
 }
 
 #contact-form-close-btn {
@@ -1277,20 +1291,7 @@ input:active, input:focus, textarea:active, textarea:focus {
 }
 
 @media(max-width: 800px) {
-
-    .contact-form {
-        width: 90vw;
-        height: 80vh;
-        background-color: red;
-        position: fixed;
-        left: 0;
-        right: 0;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 1000000000050;
-    }
-
+    
     .contact-me-btn {
         left: 3em;
         right: inherit;
