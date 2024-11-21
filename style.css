@@ -1077,7 +1077,7 @@ footer > p {
     background-color: #fff;
     width: 80vw;
     z-index: 1000000000050;
-    background-color: orange;
+/*     background-color: orange; */
     height: 80vh;
     padding: 6em;
     transition: .3s;
@@ -1113,7 +1113,7 @@ footer > p {
         width: 50vw;
         z-index: 1000000000050;
     /*     background-color: #fff; */
-        background-color: pink;
+/*         background-color: pink; */
         height: 90vh;
         padding: 3em;
         transition: .3s;
