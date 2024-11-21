@@ -1087,7 +1087,7 @@ footer > p {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 50vw;
+        width: 60vw;
         z-index: 1000000000050;
     /*     background-color: #fff; */
         background-color: pink;
@@ -1127,7 +1127,7 @@ footer > p {
     /*     background-color: #fff; */
         background-color: orange;
         height: 80vh;
-        padding: 3em;
+        padding: 6em;
         transition: .3s;
     }
 }
