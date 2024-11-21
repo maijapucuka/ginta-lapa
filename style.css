@@ -1075,7 +1075,8 @@ footer > p {
     transform: translate(-50%, -50%);
     z-index: 1000000000050;
     background-color: #fff;
-    padding: 2em;  
+    padding: 2em;
+    width: 60vw;
 }
 
 @media(min-width: 1200px) {
