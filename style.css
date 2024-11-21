@@ -1250,6 +1250,7 @@ input:active, input:focus, textarea:active, textarea:focus {
 .contact-me-cta-btn:hover {
     background-color: #2469cf;
     transition: .3s;
+    border: #2469cf 2px solid;
 }
 
 .contact-me-cta-btn > input {
